@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content {
+    padding: 60px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content img {
+    margin-top: 36px;
+    margin-bottom: 15px;
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input{
+    margin-bottom: 6px;
+    width: 16.875rem;
+    height: 2.375rem;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+}
+
+.formulario button {
+    color: #fff;
+    background: #0095f6;
+    border: none;
+    width: 16.875rem;
+    height: 1.875rem;
+    margin-top: 8px;
+
+
+}
+
